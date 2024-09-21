@@ -6,25 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        nav {
-            background-color: burlywood;
-            text-align: center;
-
+        * {
+            margin: 0;
+            padding: 0;
         }
 
-        nav ul {
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+        }
+
+        .red {
+            width: 30px;
+            height: 30px;
+            background-color: red;
+            border-radius: 50%;
+        }
+
+        .nav-link {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-link li {
             display: inline-block;
         }
     </style>
 </head>
 
 <body>
-    <h1>Navbars</h1>
-    
-    <nav>
-        <ul> Html</ul>
-        <ul> Css</ul>
-        <ul> Js</ul>
+    <h2>Navbars</h2>
+    <nav class="nav">
+        <div class="red"></div>
+        <ul class="nav-link">
+            <li>Contact</li>
+            <li>Work</li>
+            <li>Portfolio</li>
+        </ul>
     </nav>
 </body>
 
