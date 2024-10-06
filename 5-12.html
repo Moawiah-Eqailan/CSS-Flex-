@@ -4,21 +4,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Simple YouTube Page</title>
+    <link rel="stylesheet" href="5-12.css">
 </head>
 
 <body>
-    <a target="_blank" href="https://flexboxfroggy.com/">
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">YouTube</div>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search">
+                <button class="search-button">
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="header-content-2">
+        <p>All</p>
+        <p>Music</p>
+        <p>Lo-fi</p>
+        <p>Web Development</p>
+        <p>Computer Programming</p>
+        <p>Movies</p>
+        <p>Tamil Cinema</p>
+        <p>Indian pop music</p>
+    </div>
 
-        <h1>Flexboxfroggy</h1>
-    </a>
-    <p>This game is designed to strengthen your flexbox skills. I will give you an explanatory clip on it !.</p>
-    <p> Page link:
-        <a target="_blank" href="https://flexboxfroggy.com/">
-            flexboxfroggy</a>
-        <br><br>
-    <p></p>
-    <video controls muted height="400" src="video/IMG_1406.MP4"></video>
-  </body>
+    <main class="main-content">
+
+        <aside class="sidebar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shorts</a></li>
+                <li><a href="#">Subscriptions</a></li>
+                <li><a href="#">Videos I liked</a></li>
+
+            </ul>
+        </aside>
+
+
+        <div class="video-gallery">
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/IwjSH2yxZzU" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <h3 class="video-title">
+                    ريمونتادا قاتلة للملكى🔥ريال مدريد (4-3) البايرن</h3>
+            </div>
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/nukqhR3UDXA" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <h3 class="video-title">بنزيما صدم العالم ودمر اساطير باريس </h3>
+            </div>
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/g4K-czGApgM" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <h3 class="video-title">طريق ريال مدريد الي نهائي دوري الأبطال 2017 </h3>
+            </div>
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/8euCNoo-bxU" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <h3 class="video-title">
+                    النهائي الذي لن ينساه أي مدريدي🤯🔥 [بتعليق عصام الشوالي] ¦ نهائي كارديف 2017</h3>
+            </div>
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/lReL5FRFaIc" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <h3 class="video-title">جن جنون الشوالي / فما حاجه🔥🤯 "ريال مدريد (6-5) مانشستر سيتي</h3>
+            </div>
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/OcQNMpL-KSY" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <h3 class="video-title">النشامى يصنعون التاريخ🔥🔥الأردن ~ كوريا الجنوبي</h3>
+            </div>
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/xBgH4U0q7D0" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <h3 class="video-title">ملخص مباراة العراق والأردن </h3>
+            </div>
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/pjF81xeRHvw" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <h3 class="video-title">مباراة الديربي الأعظم 💥 ريال مدريد واتلتيكو مدريد</h3>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
 
 </html>
